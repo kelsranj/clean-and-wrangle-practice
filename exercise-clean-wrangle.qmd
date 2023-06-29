@@ -68,3 +68,11 @@ traps_subset <- lobster_traps %>%
   filter(SITE %in% abundance_sites)
 ```
 
+## Exercise 4
+
+```{r}
+# lobster abundance 
+
+
+```
+
