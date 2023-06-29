@@ -1,0 +1,19 @@
+---
+title: "Exercise: Explore, Clean, and Wrangle Data"
+author: "Kelsey Ranjbar"
+format: html
+---
+
+## Data setup
+
+
+## Read and explore the data
+
+
+## Exercise 1
+
+
+## Exercise 2
+
+
+## Exercise 3
