@@ -72,7 +72,14 @@ traps_subset <- lobster_traps %>%
 
 ```{r}
 # lobster abundance 
+abundance_summary <- lobster_abundance %>% 
+  group_by(SITE, YEAR) %>% 
+  summarize(tot_count = sum(COUNT))
 
+# lobster traps 
+traps_summary <- lobster_traps %>% 
+  group_by(SITE, YEAR) %>% 
+  summarize(tot_count = sum(TRAPS))
 
 ```
 
